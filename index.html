@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 0;
+    }
+
+    h1, h2 {
+      color: #38bdf8;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin: auto;
+      color: #94a3b8;
+    }
+
+    .section {
+      margin-bottom: 50px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 20px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 15px rgba(56,189,248,0.3);
+    }
+
+    .tag {
+      display: inline-block;
+      background: #334155;
+      padding: 5px 10px;
+      margin: 5px;
+      border-radius: 8px;
+      font-size: 0.8rem;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #64748b;
+      border-top: 1px solid #1e293b;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- HERO -->
+    <section class="hero">
+      <h1>Building AI-Powered Solutions That Solve Real Problems</h1>
+      <p>
+        I'm a [Your Role, e.g. CSE Student] specializing in [Tech Stack].  
+        I transform ideas into scalable, real-world applications using modern tools.  
+        Currently focused on bridging learning with production-level development.
+      </p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section">
+      <h2>Projects</h2>
+
+      <div class="card">
+        <h3>Project 1 Name</h3>
+        <p><strong>Challenge:</strong> Define the real-world problem.</p>
+        <p><strong>Solution:</strong> Explain how you solved it (mention AI, logic, backend).</p>
+        <p><strong>Impact:</strong> Show results (performance, usability, innovation).</p>
+
+        <div>
+          <span class="tag">Next.js</span>
+          <span class="tag">FastAPI</span>
+          <span class="tag">AI Integration</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Project 2 Name</h3>
+        <p><strong>Challenge:</strong> Problem statement.</p>
+        <p><strong>Solution:</strong> Your approach.</p>
+        <p><strong>Impact:</strong> Outcome.</p>
+
+        <div>
+          <span class="tag">React</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">API</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section">
+      <h2>Skills</h2>
+
+      <div class="skills-grid">
+        <div class="card">
+          <h3>Core Development</h3>
+          <p>JavaScript, Python, React, Next.js</p>
+        </div>
+
+        <div class="card">
+          <h3>Tools & DevOps</h3>
+          <p>Git, Docker, Firebase, AWS</p>
+        </div>
+
+        <div class="card">
+          <h3>Soft Skills</h3>
+          <p>Problem Solving, Communication, Teamwork</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ATS KEYWORDS -->
+    <section class="section">
+      <h2>ATS Keywords</h2>
+      <div>
+        <span class="tag">Full Stack Development</span>
+        <span class="tag">AI Integration</span>
+        <span class="tag">REST APIs</span>
+        <span class="tag">Cloud Computing</span>
+        <span class="tag">Scalable Systems</span>
+        <span class="tag">UI/UX Design</span>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    © 2026 Your Name | Built with ❤️
+  </footer>
+
+</body>
+</html>
